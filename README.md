@@ -3,4 +3,4 @@ my CodePen files
 
 
 
-![Alt Text](https://github.com/Jeremygarden/CodePen/master/SVG_filter/demo.png)
+![Alt Text](https://raw.github.com/Jeremygarden/CodePen/SVG_filter/demo.png)
