@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+$svgfilter: url("#svgfilter");
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+section {
+  margin: 0;
+  position: relative;
+}
+.content{
+  padding: 25px;
+}
+.title {
+  padding: 10px;
+}
+h1, li, p {
+  color: #FFF;
+  font-family:'Oswald', 'Arial';
+}
+h1 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+a {
+  color: #78494F;
+}
+
+body, section::before {
+  background: url("http://wallpaper-download.net/wallpapers/random-wallpapers-night-tree-wallpaper-wallpaper-32853.jpg") no-repeat #000;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+section::before {
+  content: "";
+  z-index: -5;
+  -webkit-filter: $svgfilter;
+  filter: $svgfilter;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding:0;
+	overflow: hidden;
+}
+section {
+  margin: 30px 10px;
+  position: relative;
+}
+section::before {
+  content: "";
+  z-index: -1;
+  -webkit-filter: $svgfilter;
+  -moz-filter: $svgfilter;
+  -o-filter: $svgfilter;
+  -ms-filter: $svgfilter;
+  filter: $svgfilter;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+	overflow: hidden;
+}
+
+
+svg {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
